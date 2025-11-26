@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.game-container {
+    display: flex;
+    gap: 30px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Стиль ігрового поля (canvas) */
+#tetris-canvas {
+    border: 5px solid #ff0000; /* Червона рамка */
+    background-color: #000; /* Чорний фон */
+}
+
+/* Стилі бічної панелі */
+.sidebar {
+    width: 200px;
+    padding: 10px;
+}
+
+.sidebar h2 {
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.sidebar #next-piece-canvas {
+    border: 2px solid #555;
+    background-color: #111;
+}
+
+.controls-info {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #555;
+}
+
+button {
+    background-color: #4CAF50; /* Зелена кнопка */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
